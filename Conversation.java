@@ -19,8 +19,9 @@ class Conversation {
       
       input_str = sc.nextLine();
 
-      if (input_str.contains("you")){
+      if (input_str.contains("you") || input_str.contains("You")){
         input_str = input_str.replace("you", "I");
+        input_str = input_str.replace("You", "I");
         input_str = input_str.replace(".", "?");}
 
       System.out.println(input_str);
