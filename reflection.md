@@ -8,4 +8,4 @@ Use this file to record your reflection on this assignment.
 
 TA Session 1-3PM on 2/11
 - Julia, Asher, Dakota
-- Lucy, Zoe
+- Lucy, Zoe, Merry
