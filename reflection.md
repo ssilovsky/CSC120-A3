@@ -9,3 +9,6 @@ Use this file to record your reflection on this assignment.
 TA Session 1-3PM on 2/11
 - Julia, Asher, Dakota
 - Lucy, Zoe, Merry
+Discord Voice Call on 2/14
+- Lucy, Merry, Ian
+
