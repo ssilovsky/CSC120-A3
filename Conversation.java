@@ -55,25 +55,25 @@ class Conversation {
 
       if (roundNum != -1) {
         for (int i = 0; i < split.length; i++) {
-          if ((split[i].contains("you") || split[i].contains("You"))) {
+          if ((split[i].matches("you") || split[i].matches("You"))) {
             reply[i] = "I";
-          } else if (split[i].contains("you") || split[i].contains("You")) {
+          } else if (split[i].matches("you") || split[i].matches("You")) {
             reply[i] = "I";
-          } else if (split[i].contains("I") || split[i].contains("me")) {
+          } else if (split[i].matches("I") || split[i].matches("me")) {
             reply[i] = "you";
-          } else if (split[i].contains("are")) {
+          } else if (split[i].matches("are")) {
             reply[i] = "am";
-          } else if (split[i].contains("am")) {
+          } else if (split[i].matches("am")) {
             reply[i] = "are";
-          } else if (split[i].contains("Me")) {
+          } else if (split[i].matches("Me")) {
             reply[i] = "You";
-          } else if (split[i].contains("your")) {
+          } else if (split[i].matches("your")) {
             reply[i] = "my";
-          } else if (split[i].contains("Your")) {
+          } else if (split[i].matches("Your")) {
             reply[i] = "My";
-          } else if (split[i].contains("my")) {
+          } else if (split[i].matches("my")) {
             reply[i] = "your";
-          } else if (split[i].contains("My")) {
+          } else if (split[i].matches("My")) {
             reply[i] = "Your";
           } 
         }
